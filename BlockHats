@@ -1,1 +1,18 @@
-
+local hairAccessoriesWithoutHairInName = {
+['RedBeanieWithHair'] = true;
+['VarietyShades10'] = true;
+}
+ 
+    for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+    if v:IsA("Accessory","LongStraightHair") and not hairAccessoriesWithoutHairInName[v.Name] and v.Handle:FindFirstChild("Mesh") then
+    ag = v.Handle:FindFirstChild("Mesh")
+    ag:Destroy()
+    end
+    end
+ 
+     for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+    if v:IsA("Accessory","LongStraightHair") and not hairAccessoriesWithoutHairInName[v.Name] and v.Handle:FindFirstChild("SpecialMesh") then
+    ag = v.Handle:FindFirstChild("SpecialMesh")
+    ag:Destroy()
+    end
+    end
