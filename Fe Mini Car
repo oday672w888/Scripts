@@ -1,0 +1,1152 @@
+local char = game.Players.LocalPlayer.Character
+
+
+
+for i = 1, 2 do
+
+if char:FindFirstChild("International Fedora") then
+
+char:FindFirstChild("International Fedora").Name = "InternationalFedora"
+
+end
+
+wait(0.01)
+
+end
+
+
+
+for turtle = 1, 4 do
+
+if char:FindFirstChild("InternationalFedora") then
+
+char:FindFirstChild("InternationalFedora").Name = turtle
+
+end
+
+wait(0.01)
+
+end
+
+local Plr = game:GetService("Players").LocalPlayer -- you
+
+local Player = game:GetService("Players").LocalPlayer-- you
+
+local Character = Player.Character-- your character
+
+local function align(i,v) -- align function
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0)
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(-1.5,0.1,-0.5)--position
+
+att1.Rotation = Vector3.new(60, 0, 0)--rotation
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 10000000000000
+
+end
+
+Character["Left Arm"]:BreakJoints()--breaks the joints so you can customize its position
+
+align(Character["Left Arm"], Character["Torso"]) -- the left arm is the part you want to change position, the torso part is what you want the position to be aligned to
+
+local Plr = game:GetService("Players").LocalPlayer -- you
+
+local Player = game:GetService("Players").LocalPlayer-- you
+
+local Character = Player.Character-- your character
+
+local function align(i,v) -- align function
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0)
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(1.5,0.1,-0.5)--position
+
+att1.Rotation = Vector3.new(60, 0, 0)--rotation
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 10000000000000
+
+end
+
+Character["Right Arm"]:BreakJoints()--breaks the joints so you can customize its position
+
+align(Character["Right Arm"], Character["Torso"]) -- the left arm is the part you want to change position, the torso part is what you want the position to be aligned to
+
+
+
+
+
+local Plr = game:GetService("Players").LocalPlayer -- you
+
+local Player = game:GetService("Players").LocalPlayer-- you
+
+local Character = Player.Character-- your character
+
+local function align(i,v) -- align function
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0)
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(-0.5,-1,-1)--position
+
+att1.Rotation = Vector3.new(90, 0, 0)--rotation
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 10000000000000
+
+end
+
+Character["Left Leg"]:BreakJoints()--breaks the joints so you can customize its position
+
+align(Character["Left Leg"], Character["Torso"]) -- the left arm is the part you want to change position, the torso part is what you want the position to be aligned to
+
+local Plr = game:GetService("Players").LocalPlayer -- you
+
+local Player = game:GetService("Players").LocalPlayer-- you
+
+local Character = Player.Character-- your character
+
+local function align(i,v) -- align function
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0)
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(0.5,-1,-1)--position
+
+att1.Rotation = Vector3.new(90, 0, 0)--rotation
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 10000000000000
+
+end
+
+Character["Right Leg"]:BreakJoints()--breaks the joints so you can customize its position
+
+align(Character["Right Leg"], Character["Torso"]) -- the left arm is the part you want to change position, the torso part is what you want the position to be aligned to
+
+
+
+
+
+
+
+
+
+
+
+local Plr = game:GetService("Players").LocalPlayer
+
+local Player = game:GetService("Players").LocalPlayer
+
+local Character = Player.Character
+
+
+
+
+
+
+
+
+
+local Hats = {
+
+    xd = Character:WaitForChild("WDW_FoamFinger"), -- the hat/body limb name
+
+
+
+}
+
+Hats.xd.Handle.AccessoryWeld:Remove()
+
+if Hats.xd.Handle:FindFirstChild ("Mesh") then
+
+Hats.xd.Handle:FindFirstChild ("Mesh"):Remove()
+
+elseif Hats.xd.Handle:FindFirstChild ("SpecialMesh") then
+
+Hats.xd.Handle:FindFirstChild ("SpecialMesh"):Remove()
+
+end
+
+local function align(i,v)
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0) 
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(0,-1.5,-1)-- literally the same thing
+
+			game:GetService("RunService").Heartbeat:Connect(function()
+Hats.xd.Handle.Attachment.Rotation = Vector3.new(90,0,0)
+
+end)
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 10000000000000
+
+end
+
+align(Hats.xd.Handle, Character["Torso"])
+
+
+
+
+
+
+
+
+
+local Plr = game:GetService("Players").LocalPlayer
+
+local Player = game:GetService("Players").LocalPlayer
+
+local Character = Player.Character
+
+
+
+
+
+
+
+
+
+local Hats = {
+
+    xd = Character:WaitForChild("Pal Hair"), -- the hat/body limb name
+
+
+
+}
+
+Hats.xd.Handle.AccessoryWeld:Remove()
+
+if Hats.xd.Handle:FindFirstChild ("Mesh") then
+
+Hats.xd.Handle:FindFirstChild ("Mesh"):Remove()
+
+elseif Hats.xd.Handle:FindFirstChild ("SpecialMesh") then
+
+Hats.xd.Handle:FindFirstChild ("SpecialMesh"):Remove()
+
+end
+
+local function align(i,v)
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0) 
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(-1.3,-1,-0.5)-- literally the same thing
+
+			game:GetService("RunService").Heartbeat:Connect(function()
+
+att1.Rotation = att1.Rotation + Vector3.new(0,0,0)--rotation
+
+end)
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 10000000000000
+
+end
+
+align(Hats.xd.Handle, Character["Torso"])
+
+
+
+
+
+
+
+
+
+local Plr = game:GetService("Players").LocalPlayer
+
+local Player = game:GetService("Players").LocalPlayer
+
+local Character = Player.Character
+
+
+
+
+
+
+
+
+
+local Hats = {
+
+    xd = Character:WaitForChild("Pink Hair"), -- the hat/body limb name
+
+
+
+}
+
+Hats.xd.Handle.AccessoryWeld:Remove()
+
+if Hats.xd.Handle:FindFirstChild ("Mesh") then
+
+Hats.xd.Handle:FindFirstChild ("Mesh"):Remove()
+
+elseif Hats.xd.Handle:FindFirstChild ("SpecialMesh") then
+
+Hats.xd.Handle:FindFirstChild ("SpecialMesh"):Remove()
+
+end
+
+local function align(i,v)
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0) 
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(1.3,-1,-0.5)-- literally the same thing
+
+			game:GetService("RunService").Heartbeat:Connect(function()
+
+att1.Rotation = att1.Rotation + Vector3.new(0,0,0)--rotation
+
+end)
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 10000000000000
+
+end
+
+align(Hats.xd.Handle, Character["Torso"])
+
+
+
+
+
+
+
+local Plr = game:GetService("Players").LocalPlayer
+
+local Player = game:GetService("Players").LocalPlayer
+
+local Character = Player.Character
+
+
+
+
+
+
+
+
+
+local Hats = {
+
+    xd = Character:WaitForChild("Kate Hair"), -- the hat/body limb name
+
+
+
+}
+
+Hats.xd.Handle.AccessoryWeld:Remove()
+
+if Hats.xd.Handle:FindFirstChild ("Mesh") then
+
+Hats.xd.Handle:FindFirstChild ("Mesh"):Remove()
+
+elseif Hats.xd.Handle:FindFirstChild ("SpecialMesh") then
+
+Hats.xd.Handle:FindFirstChild ("SpecialMesh"):Remove()
+
+end
+
+local function align(i,v)
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0) 
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(1.3,-1,-1.5)-- literally the same thing
+
+			game:GetService("RunService").Heartbeat:Connect(function()
+
+att1.Rotation = att1.Rotation + Vector3.new(0,0,0)--rotation
+
+end)
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 10000000000000
+
+end
+
+align(Hats.xd.Handle, Character["Torso"])
+
+
+
+local Plr = game:GetService("Players").LocalPlayer
+
+local Player = game:GetService("Players").LocalPlayer
+
+local Character = Player.Character
+
+
+
+
+
+
+
+
+
+local Hats = {
+
+    xd = Character:WaitForChild("LavanderHair"), -- the hat/body limb name
+
+
+
+}
+
+Hats.xd.Handle.AccessoryWeld:Remove()
+
+if Hats.xd.Handle:FindFirstChild ("Mesh") then
+
+Hats.xd.Handle:FindFirstChild ("Mesh"):Remove()
+
+elseif Hats.xd.Handle:FindFirstChild ("SpecialMesh") then
+
+Hats.xd.Handle:FindFirstChild ("SpecialMesh"):Remove()
+
+end
+
+local function align(i,v)
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0) 
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(-1.3,-1,-1.5)-- literally the same thing
+
+			game:GetService("RunService").Heartbeat:Connect(function()
+
+att1.Rotation = att1.Rotation + Vector3.new(0,0,0)--rotation
+
+end)
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 10000000000000
+
+end
+
+align(Hats.xd.Handle, Character["Torso"])
+
+
+
+
+
+
+
+
+
+local Plr = game:GetService("Players").LocalPlayer
+
+local Player = game:GetService("Players").LocalPlayer
+
+local Character = Player.Character
+
+
+
+
+
+
+
+
+
+local Hats = {
+
+    xd = Character:WaitForChild("1"), -- the hat/body limb name
+
+
+
+}
+
+Hats.xd.Handle.AccessoryWeld:Remove()
+
+if Hats.xd.Handle:FindFirstChild ("Mesh") then
+
+Hats.xd.Handle:FindFirstChild ("Mesh"):Remove()
+
+elseif Hats.xd.Handle:FindFirstChild ("SpecialMesh") then
+
+Hats.xd.Handle:FindFirstChild ("SpecialMesh"):Remove()
+
+end
+
+local function align(i,v)
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0) 
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(1,-2.3,-2.5)-- literally the same thing
+
+			game:GetService("RunService").Heartbeat:Connect(function()
+
+att1.Rotation = att1.Rotation + Vector3.new(90,0,0)--rotation
+
+end)
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 50
+
+end
+
+align(Hats.xd.Handle, Character["Torso"])
+
+
+
+
+
+
+
+
+
+local Plr = game:GetService("Players").LocalPlayer
+
+local Player = game:GetService("Players").LocalPlayer
+
+local Character = Player.Character
+
+
+
+
+
+
+
+
+
+local Hats = {
+
+    xd = Character:WaitForChild("2"), -- the hat/body limb name
+
+
+
+}
+
+Hats.xd.Handle.AccessoryWeld:Remove()
+
+if Hats.xd.Handle:FindFirstChild ("Mesh") then
+
+Hats.xd.Handle:FindFirstChild ("Mesh"):Remove()
+
+elseif Hats.xd.Handle:FindFirstChild ("SpecialMesh") then
+
+Hats.xd.Handle:FindFirstChild ("SpecialMesh"):Remove()
+
+end
+
+local function align(i,v)
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0) 
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(-1,-2.3,-2.5)-- literally the same thing
+
+			game:GetService("RunService").Heartbeat:Connect(function()
+
+att1.Rotation = att1.Rotation + Vector3.new(90,0,0)--rotation
+
+end)
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 50
+
+end
+
+align(Hats.xd.Handle, Character["Torso"])
+
+
+
+
+
+
+
+
+
+local Plr = game:GetService("Players").LocalPlayer
+
+local Player = game:GetService("Players").LocalPlayer
+
+local Character = Player.Character
+
+
+
+
+
+
+
+
+
+local Hats = {
+
+    xd = Character:WaitForChild("3"), -- the hat/body limb name
+
+
+
+}
+
+Hats.xd.Handle.AccessoryWeld:Remove()
+
+if Hats.xd.Handle:FindFirstChild ("Mesh") then
+
+Hats.xd.Handle:FindFirstChild ("Mesh"):Remove()
+
+elseif Hats.xd.Handle:FindFirstChild ("SpecialMesh") then
+
+Hats.xd.Handle:FindFirstChild ("SpecialMesh"):Remove()
+
+end
+
+local function align(i,v)
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0) 
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(-1,-2.3,0.5)-- literally the same thing
+
+			game:GetService("RunService").Heartbeat:Connect(function()
+
+att1.Rotation = att1.Rotation + Vector3.new(90,0,0)--rotation
+
+end)
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 50
+
+end
+
+align(Hats.xd.Handle, Character["Torso"])
+
+
+
+
+
+
+
+local Plr = game:GetService("Players").LocalPlayer
+
+local Player = game:GetService("Players").LocalPlayer
+
+local Character = Player.Character
+
+
+
+
+
+
+
+
+
+local Hats = {
+
+    xd = Character:WaitForChild("4"), -- the hat/body limb name
+
+
+
+}
+
+Hats.xd.Handle.AccessoryWeld:Remove()
+
+if Hats.xd.Handle:FindFirstChild ("Mesh") then
+
+Hats.xd.Handle:FindFirstChild ("Mesh"):Remove()
+
+elseif Hats.xd.Handle:FindFirstChild ("SpecialMesh") then
+
+Hats.xd.Handle:FindFirstChild ("SpecialMesh"):Remove()
+
+end
+
+local function align(i,v)
+
+local att0 = Instance.new("Attachment", i)
+
+att0.Position = Vector3.new(0,0,0) 
+
+local att1 = Instance.new("Attachment", v)
+
+att1.Position = Vector3.new(1,-2.3,0.5)-- literally the same thing
+
+			game:GetService("RunService").Heartbeat:Connect(function()
+
+att1.Rotation = att1.Rotation + Vector3.new(90,0,0)--rotation
+
+end)
+
+local AP = Instance.new("AlignPosition", i)
+
+AP.Attachment0 = att0
+
+AP.Attachment1 = att1
+
+AP.RigidityEnabled = false
+
+AP.ReactionForceEnabled = false
+
+AP.ApplyAtCenterOfMass = true
+
+AP.MaxForce = 9999999
+
+AP.MaxVelocity = math.huge
+
+AP.Responsiveness = 1000000000000
+
+local AO = Instance.new("AlignOrientation", i)
+
+AO.Attachment0 = att0
+
+AO.Attachment1 = att1
+
+AO.ReactionTorqueEnabled = true
+
+AO.PrimaryAxisOnly = false
+
+AO.MaxTorque = 9999999
+
+AO.MaxAngularVelocity = math.huge
+
+AO.Responsiveness = 50
+
+end
+
+align(Hats.xd.Handle, Character["Torso"])
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
+
+for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+
+
+
+if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
+
+
+
+game:GetService("RunService").Heartbeat:connect(function()
+
+
+
+v.Velocity = Vector3.new(0,35,0)
+
+
+
+wait(0.5)
+
+
+
+end)
+
+
+
+end
+
+
+
+end
