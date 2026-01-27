@@ -1,0 +1,14 @@
+{
+  "name": "discord-ai-bot",
+  "version": "1.0.0",
+  "description": "Discord AI Bot with multi-provider support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.0.3",
+    "axios": "^1.6.0"
+  }
+}
